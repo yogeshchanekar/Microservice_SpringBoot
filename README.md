@@ -48,7 +48,7 @@ Microservice architecture is generally considered an evolution of SOA as its ser
 Since each service is independent, a microservice architecture can scale better than other approaches used for application building and deployment. This characteristic also gives microservice applications more fault tolerance than other application development methods. Microservices are frequently built and deployed in the cloud; in many instances they operate in containers.
 
 
-What Is the Eureka Server?
+What Is the Eureka Server/Discovery Server ?
 
 The Eureka server is nothing but a service discovery pattern implementation, where every microservice is registered and a client microservice looks up the Eureka server to get a dependent microservice to get the job done.
 
