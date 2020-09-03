@@ -30,4 +30,10 @@ The problem with monoliths isn’t so much that there’s an inherent problem wi
 What are Microservices?
 Microservices are designed to combat the problems associated with monoliths by going in the complete opposite direction. Microservices are an architectural style where an application is broken into a series of modules, each associated with a specific business objective.
 
+What is Service-oriented architecture (SOA) ?
+Service-oriented architecture (SOA) is a style of software design in which application components provide services to other components via a communications protocol that is typically over a network.
+
+
+
+
 
