@@ -73,6 +73,9 @@ Ratings Data - http://localhost:8083/ratings/user/{userId}
 
 Hystrix Dashboard - Go to http://localhost:8081/hystrix. Then put 'https://localhost:8081/actuator/hystrix.stream' to the textbox on the middle.
 
+Check Attached screenshot for reference
+
+
 
 
 
