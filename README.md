@@ -42,9 +42,19 @@ SOA’s two main roles are as a service provider and a service consumer. Its ser
 ![Microservice Vs SOA](https://user-images.githubusercontent.com/55848417/92152475-59322e80-ee40-11ea-8705-ee09539506aa.png)
 
 What is a microservice?
+
 Microservice architecture is generally considered an evolution of SOA as its services are more fine-grained, and function independently of each other. Therefore, if one of the services fail within an application, the app will continue to function since each service has a distinct purpose. The services in microservices communicate via application programming interfaces (APIs) and are organized around a particular business domain. Together, these services combine to make up complex applications.
 
 Since each service is independent, a microservice architecture can scale better than other approaches used for application building and deployment. This characteristic also gives microservice applications more fault tolerance than other application development methods. Microservices are frequently built and deployed in the cloud; in many instances they operate in containers.
+
+
+What Is the Eureka Server?
+The Eureka server is nothing but a service discovery pattern implementation, where every microservice is registered and a client microservice looks up the Eureka server to get a dependent microservice to get the job done.
+
+The Eureka Server is a Netflix OSS product, and Spring Cloud offers a declarative way to register and invoke services by Java annotation.
+
+![Microservice Example](https://user-images.githubusercontent.com/55848417/92153305-ab278400-ee41-11ea-9976-8e14f7f66df9.PNG)
+
 
 
 
