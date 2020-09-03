@@ -75,6 +75,15 @@ Hystrix Dashboard - Go to http://localhost:8081/hystrix. Then put 'https://local
 
 Check Attached screenshot for reference
 
+Movie Info - http://localhost:8082/movies/{movieId}
+
+![image](https://user-images.githubusercontent.com/55848417/92181558-26e7f780-ee67-11ea-828c-b6173cd0e9b1.png)
+
+Movie Catalog - http://localhost:8081/catalog/{userId}
+
+
+
+
 
 
 
