@@ -49,6 +49,7 @@ Since each service is independent, a microservice architecture can scale better 
 
 
 What Is the Eureka Server?
+
 The Eureka server is nothing but a service discovery pattern implementation, where every microservice is registered and a client microservice looks up the Eureka server to get a dependent microservice to get the job done.
 
 The Eureka Server is a Netflix OSS product, and Spring Cloud offers a declarative way to register and invoke services by Java annotation.
