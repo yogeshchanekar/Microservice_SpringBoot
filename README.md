@@ -33,6 +33,7 @@ Microservices are designed to combat the problems associated with monoliths by g
 What is Service-oriented architecture (SOA) ?
 Service-oriented architecture (SOA) is a style of software design in which application components provide services to other components via a communications protocol that is typically over a network.
 
+![service-oriented-architecture-vs-microservices](https://user-images.githubusercontent.com/55848417/92139096-e4a1c480-ee2c-11ea-8836-d40f68b26ba2.png)
 
 
 
