@@ -35,6 +35,19 @@ Service-oriented architecture (SOA) is a style of software design in which appli
 
 ![service-oriented-architecture-vs-microservices](https://user-images.githubusercontent.com/55848417/92139096-e4a1c480-ee2c-11ea-8836-d40f68b26ba2.png)
 
+Service-oriented architecture was largely created as a response to traditional, monolithic approaches to building applications. SOA breaks up the components required for applications into separate service modules that communicate with one another to meet specific business objectives. Each module is considerably smaller than a monolithic application, and can be deployed to serve different purposes in an enterprise. Additionally, SOA is delivered via the cloud and can include services for infrastructure, platforms, and applications.
+
+SOA’s two main roles are as a service provider and a service consumer. Its service provider layer includes the different services involved in SOA, while the consumer layer operates as the user interface. 
+
+![Microservice Vs SOA](https://user-images.githubusercontent.com/55848417/92152475-59322e80-ee40-11ea-8705-ee09539506aa.png)
+
+What is a microservice?
+Microservice architecture is generally considered an evolution of SOA as its services are more fine-grained, and function independently of each other. Therefore, if one of the services fail within an application, the app will continue to function since each service has a distinct purpose. The services in microservices communicate via application programming interfaces (APIs) and are organized around a particular business domain. Together, these services combine to make up complex applications.
+
+Since each service is independent, a microservice architecture can scale better than other approaches used for application building and deployment. This characteristic also gives microservice applications more fault tolerance than other application development methods. Microservices are frequently built and deployed in the cloud; in many instances they operate in containers.
+
+
+
 
 
 
