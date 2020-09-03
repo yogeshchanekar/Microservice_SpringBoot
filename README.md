@@ -57,14 +57,20 @@ The Eureka Server is a Netflix OSS product, and Spring Cloud offers a declarativ
 ![Microservice Example](https://user-images.githubusercontent.com/55848417/92153305-ab278400-ee41-11ea-9976-8e14f7f66df9.PNG)
 
 
-Note:- Need to run each microservice as spring boot app using cmd or sts ide
+Note:- Need to run each microservice as spring boot app using cmd or sts ide.
+
+Also for JSON view download Jsonview Extension in GoogleChrome.
 
 Every microservice is a Spring Boot application and can be started locally using IDE or ../mvnw spring-boot:run command. Please note that supporting services (Discovery Server) must be started before any other application (Movie Catalog, Movie Info, Ratings Data). If everything goes well, you can access the following services at given location:
 
 Discovery Server - http://localhost:8761
+
 Movie Catalog - http://localhost:8081/catalog/{userId}
+
 Movie Info - http://localhost:8082/movies/{movieId}
+
 Ratings Data - http://localhost:8083/ratings/user/{userId}
+
 Hystrix Dashboard - Go to http://localhost:8081/hystrix. Then put 'https://localhost:8081/actuator/hystrix.stream' to the textbox on the middle.
 
 
