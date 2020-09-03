@@ -57,7 +57,7 @@ The Eureka Server is a Netflix OSS product, and Spring Cloud offers a declarativ
 ![Microservice Example](https://user-images.githubusercontent.com/55848417/92153305-ab278400-ee41-11ea-9976-8e14f7f66df9.PNG)
 
 
-
+Note:- Need to run each microservice as spring boot app using cmd or sts ide
 
 
 
