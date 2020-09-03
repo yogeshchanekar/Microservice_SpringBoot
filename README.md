@@ -11,6 +11,11 @@ Organized around business capabilities
 Owned by a small team
 The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
 
+Features of MicroService
+
+![Microservices-Features-What-Is-Microservices](https://user-images.githubusercontent.com/55848417/92152003-a3ff7680-ee3f-11ea-9114-aa6cfbd919db.png)
+
+
 OR we can say that 
 Microservice architecture, or simply microservices, is a distinctive method of developing software systems that tries to focus on building single-function modules with well-defined interfaces and operations. The trend has grown popular in recent years as Enterprises look to become more Agile and move towards a DevOps and continuous testing. 
 
@@ -24,3 +29,5 @@ The problem with monoliths isn’t so much that there’s an inherent problem wi
 
 What are Microservices?
 Microservices are designed to combat the problems associated with monoliths by going in the complete opposite direction. Microservices are an architectural style where an application is broken into a series of modules, each associated with a specific business objective.
+
+
