@@ -71,18 +71,23 @@ Zipkin Distributed Tracing Server
 
 
 1. Spring Cloud Config Server
+
 provides the HTTP resource-based API for external configuration in the distributed system. We can enable the Spring Cloud Config Server by using the annotation @EnableConfigServer.
 
 2. Netflix Eureka Naming Server
+
 Netflix Eureka Server is a discovery server. It provides the REST interface to the outside for communicating with it. A microservice after coming up, register itself as a discovery client. The Eureka server also has another software module called Eureka Client. Eureka client interacts with the Eureka server for service discovery. The Eureka client also balances the client requests.
 
 3. Hystrix Server
+
 Hystrix server acts as a fault-tolerance robust system. It is used to avoid complete failure of an application. It does this by using the Circuit Breaker mechanism. If the application is running without any issue, the circuit remains closed. If there is an error encountered in the application, the Hystrix Server opens the circuit. The Hystrix server stops the further request to calling service. It provides a highly robust system.
 
 4. Netflix Zuul API Gateway Server
+
 Netflix Zuul Server is a gateway server from where all the client request has passed through. It acts as a unified interface to a client. It also has an inbuilt load balancer to load the balance of all incoming request from the client.
 
 5. Netflix Ribbon
+
 Netflix Ribbon is the client-side Inter-Process Communication (IPC) library. It provides the client-side balancing algorithm. It uses a Round Robin Load Balancing:
 
 Load balancing
@@ -94,13 +99,17 @@ Multiple protocols(HTTP, TCP, UDP)
 Caching and Batching
 
 6. Zipkin Distributed Server
+
 Zipkin is an open-source project m project. That provides a mechanism for sending, receiving, and visualization traces.
 
 One thing you need to be focused on that is port number.
        
-Spring Cloud Config Server:  8888
+Spring Cloud Config Server:  8888 
+
 Netflix Eureka Naming Server: 8761
+
 Netflix Zuul API gateway Server:8765
+
 Zipkin distributed Tracing Server:	9411
 
 
