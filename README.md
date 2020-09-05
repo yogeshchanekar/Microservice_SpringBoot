@@ -11,7 +11,7 @@ Organized around business capabilities
 Owned by a small team
 The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack.
 
-Features of MicroService
+                                                    Features of MicroService
 
 ![Microservices-Features-What-Is-Microservices](https://user-images.githubusercontent.com/55848417/92152003-a3ff7680-ee3f-11ea-9114-aa6cfbd919db.png)
 
@@ -25,6 +25,8 @@ Microservice architecture, or simply microservices, is a distinctive method of d
 
 What is Monolithic Architecture?
 Traditionally, applications were built on a monolithic architecture, a model in which all modules in an application are interconnected in a single, self-contained unit. All code exists inside a single codebase, which means that the entire application is deployed at the same time, and scaling is achieved by adding additional nodes.
+
+                                                     Monolithic Vs Microservice Architecture
 
 ![microservices architecture](https://user-images.githubusercontent.com/55848417/92138506-15352e80-ee2c-11ea-9f0a-8797c7aa6ca1.png)
 
