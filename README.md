@@ -67,7 +67,8 @@ There are the following components of microservices:
 4. Netflix ZuulAPI Gateway Server
 5. Netflix Ribbon
 6. Zipkin Distributed Tracing Server
-7. Spring Cloud Config Server
+
+
 
 1. Spring Cloud Config Server
 provides the HTTP resource-based API for external configuration in the distributed system. We can enable the Spring Cloud Config Server by using the annotation @EnableConfigServer.
@@ -94,12 +95,13 @@ Zipkin is an open-source project m project. That provides a mechanism for sendin
 
 One thing you need to be focused on that is port number.
 
-       Application                                  Port
+Application                         Port
        
-Spring Cloud Config Server	                        8888
-Netflix Eureka Naming Server	                      8761
-Netflix Zuul API gateway Server	                    8765
-Zipkin distributed Tracing Server	                  9411
+Spring Cloud Config Server	        8888
+Netflix Eureka Naming Server	      8761
+Netflix Zuul API gateway Server	    8765
+Zipkin distributed Tracing Server	  9411
+
 
 
 
