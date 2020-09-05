@@ -84,7 +84,7 @@ Movie Catalog - http://localhost:8081/catalog/{userId}
 ![MicroserviceExampleScreenShot2](https://user-images.githubusercontent.com/55848417/92181770-af669800-ee67-11ea-9f2b-7b899591c239.PNG)
 
 
-
+Note : For api-key create account on https://www.themoviedb.org/ and get api-key from the API Section tab.
 
 
 
