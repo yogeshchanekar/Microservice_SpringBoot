@@ -19,6 +19,10 @@ Features of MicroService
 OR we can say that 
 Microservice architecture, or simply microservices, is a distinctive method of developing software systems that tries to focus on building single-function modules with well-defined interfaces and operations. The trend has grown popular in recent years as Enterprises look to become more Agile and move towards a DevOps and continuous testing. 
 
+                                                    Architecture of Microservice
+
+![Microservice_Architecture](https://user-images.githubusercontent.com/55848417/92303270-ed131000-ef90-11ea-81c3-8d8a2760c69e.png)
+
 What is Monolithic Architecture?
 Traditionally, applications were built on a monolithic architecture, a model in which all modules in an application are interconnected in a single, self-contained unit. All code exists inside a single codebase, which means that the entire application is deployed at the same time, and scaling is achieved by adding additional nodes.
 
