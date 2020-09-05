@@ -61,12 +61,12 @@ Since each service is independent, a microservice architecture can scale better 
                                                                    
 There are the following components of microservices:
 
-1. Spring Cloud Config Server
-2. Netflix Eureka Naming Server
-3. Hystrix Server
-4. Netflix ZuulAPI Gateway Server
-5. Netflix Ribbon
-6. Zipkin Distributed Tracing Server
+Spring Cloud Config Server
+Netflix Eureka Naming Server
+Hystrix Server
+Netflix ZuulAPI Gateway Server
+Netflix Ribbon
+Zipkin Distributed Tracing Server
 
 
 
@@ -86,21 +86,22 @@ Netflix Zuul Server is a gateway server from where all the client request has pa
 Netflix Ribbon is the client-side Inter-Process Communication (IPC) library. It provides the client-side balancing algorithm. It uses a Round Robin Load Balancing:
 
 Load balancing
+
 Fault tolerance
+
 Multiple protocols(HTTP, TCP, UDP)
+
 Caching and Batching
 
 6. Zipkin Distributed Server
 Zipkin is an open-source project m project. That provides a mechanism for sending, receiving, and visualization traces.
 
 One thing you need to be focused on that is port number.
-
-Application                         Port
        
-Spring Cloud Config Server	        8888
-Netflix Eureka Naming Server	      8761
-Netflix Zuul API gateway Server	    8765
-Zipkin distributed Tracing Server	  9411
+Spring Cloud Config Server:  8888
+Netflix Eureka Naming Server: 8761
+Netflix Zuul API gateway Server:8765
+Zipkin distributed Tracing Server:	9411
 
 
 
